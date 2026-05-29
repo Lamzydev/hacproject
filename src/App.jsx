@@ -21,7 +21,7 @@ function AnimatedRoutes() {
   const location = useLocation()
   const noChrome = ['/login', '/register'].includes(location.pathname)
 
-  return (
+  return(
     <>
       <ScrollToTop />
       {!noChrome && <Navbar />}
